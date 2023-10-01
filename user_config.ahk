@@ -78,10 +78,8 @@
 +!8::switchDesktopByNumber(8)
 +!9::switchDesktopByNumber(9)
 
-+!n::switchDesktopToRight()
-+!p::switchDesktopToLeft()
-+!s::switchDesktopToRight()
-+!a::switchDesktopToLeft()
++!l::switchDesktopToRight()
++!h::switchDesktopToLeft()
 +!tab::switchDesktopToLastOpened()
 
 ; ^!c::createVirtualDesktop()
