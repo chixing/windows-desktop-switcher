@@ -82,7 +82,7 @@
 ; !l::switchDesktopToRight()
 ; !h::switchDesktopToLeft()
 
-+!tab::switchDesktopToLastOpened()
+; +!tab::switchDesktopToLastOpened()
 
 ; ^!c::createVirtualDesktop()
 ; ^!d::deleteVirtualDesktop()
