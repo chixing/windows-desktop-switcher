@@ -78,15 +78,6 @@
 !8::switchDesktopByNumber(8)
 !9::switchDesktopByNumber(9)
 
-; doesn't work...
-; !l::switchDesktopToRight()
-; !h::switchDesktopToLeft()
-
-; +!tab::switchDesktopToLastOpened()
-
-; ^!c::createVirtualDesktop()
-; ^!d::deleteVirtualDesktop()
-
 !+1::MoveCurrentWindowToDesktop(1)
 !+2::MoveCurrentWindowToDesktop(2)
 !+3::MoveCurrentWindowToDesktop(3)
@@ -97,8 +88,12 @@
 !+8::MoveCurrentWindowToDesktop(8)
 !+9::MoveCurrentWindowToDesktop(9)
 
-!+l::MoveCurrentWindowToRightDesktop()
-!+h::MoveCurrentWindowToLeftDesktop()
+!+]::MoveCurrentWindowToRightDesktop()
+!+[::MoveCurrentWindowToLeftDesktop()
+
+!]::switchDesktopToRight()
+![::switchDesktopToLeft()
+
 
 
 
